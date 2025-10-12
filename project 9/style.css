@@ -1,0 +1,32 @@
+#p1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p2 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#p3 {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+#p4 {
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+#p5 {
+    text-decoration: underline overline;
+    text-transform: none;
+}
+
+h3 {
+    box-shadow: 34px 2px 30px rgb(37, 33, 254);
+}
+
+h2 {
+    text-shadow: 3px 6px 3px rgb(38, 157, 133);
+    text-indent: 450px;
+}
