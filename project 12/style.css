@@ -1,0 +1,25 @@
+#i1{
+    padding: 12px;
+    background-color: lightcoral;
+    position: static;
+    opacity: 0.1;
+}
+#i2{
+    position:relative;
+    background-color: lightblue;
+    opacity: 0.3;
+}
+#i3{
+    position:fixed;
+    opacity:0.5;
+    background-color: lightgreen;
+}
+#i4{
+    position:absolute;
+    background-color:crimson;
+}
+#i5{
+    bottom:0;
+    position:sticky;
+    background-color: aquamarine;
+}
