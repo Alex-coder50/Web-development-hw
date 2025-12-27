@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ascending()">ascending order</button>
+    <button onclick="descending()">descending order</button>
+    <p id="hehe"></p>
+    <script>
+        var points = [38,5,89,6];
+        document.getElementById("hehe").innerHTML=num;
+        
+         function ascending() {
+                points.sort(function (a, b) { return a - b });
+                document.getElementById("hehe").innerHTML = points;
+            }
+            function descending() {
+                points.sort(function (a, b) { return b - a });
+                document.getElementById("hehe").innerHTML = points;
+            }
+    
+    </script>
+</body>
+</html>
